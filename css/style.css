@@ -1,7 +1,7 @@
 body {
   margin: auto;
-  width: 90%;
-  max-width: 960px;
+  width: 100%;
+  max-width: 1000px;
   background: ghostwhite;
   font-family: 'Crimson Text', serif;
   font-size: 100%;
@@ -15,7 +15,7 @@ body {
 }
 
 header {
-  grid-column: 1.5 / 5;
+  grid-column: 1 / 5;
   grid-row: 1;
   margin-left: 0px;
   margin-top: 30px;
@@ -24,7 +24,7 @@ header {
 }
 
 article {
-  grid-column: 1.5 / 5;
+  grid-column: 1 / 5;
   grid-row: 2;
 }
 
