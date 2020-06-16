@@ -1,0 +1,119 @@
+body {
+  margin: auto;
+  width: 90%;
+  max-width: 960px;
+  background: mistyrose;
+  font-family: 'Crimson Text', serif;
+  font-size: 100%;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-gap: 40px;
+  margin-bottom: 100px;
+}
+
+header {
+  grid-column: 1.5 / 5;
+  grid-row: 1;
+  margin-left: 0px;
+  margin-top: 30px;
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+
+article {
+  grid-column: 1.5 / 5;
+  grid-row: 2;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: normal;
+  margin-top: 40px;
+}
+
+.firsth2 {
+  margin-top: 12px;
+}
+
+h3 {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+/* unvisited link */
+a:link {
+  color: forestgreen;
+}
+
+/* visited link */
+a:visited {
+  color: forestgreen;
+}
+
+/* mouse over link */
+a:hover {
+  color: forestgreen;
+}
+
+/* selected link */
+a:active {
+  color: forestgreen;
+}
+
+nav {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+ul.navlist {
+  list-style-type:none
+}
+
+li {
+  font-size: 1em;
+}
+
+/* Schedule */
+
+.schedule, .schedule ul {
+  padding: 0;
+  list-style-type: none; 
+}
+
+.schedule h2 {
+  font-size: 1em;
+  padding: 0;
+  margin: 0;
+  grid-row: span 2; 
+}
+
+.schedule h3 {
+  padding: 0;
+  margin: 0; 
+}
+
+.week {
+  display: grid;
+  grid-template-columns: 1fr 1fr 3fr;
+  grid-gap: 20px;
+  padding-top: 1.5em;
+  border-top: 1px solid white;
+  width: 100%; 
+}
+
+.week ul > li > ul > li {
+  display: block; 
+}
+
+.week h3 {
+  width: 12em;
+  font-weight: normal; 
+}
+
+.week ul {
+  margin-bottom: 1em;
+  width: 80%; 
+}
