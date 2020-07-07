@@ -1,12 +1,12 @@
 body {
   margin: auto;
+  /*padding: 20px;*/
   width: 90%;
-  max-width: 1100px;
-  background: white;
+  max-width: 960px;
+  /*background: mistyrose;*/
+  background: thistle;
   font-family: 'Crimson Text', serif;
   font-size: 100%;
-  color: dimgrey;
-  text-transform: uppercase;
 }
 
 .container {
@@ -47,22 +47,22 @@ h3 {
 
 /* unvisited link */
 a:link {
-  color: dimgrey;
+  color: darkslateblue;
 }
 
 /* visited link */
 a:visited {
-  color: dimgrey;
+  color: darkslateblue;
 }
 
 /* mouse over link */
 a:hover {
-  color: dimgrey;
+  color: darkslateblue;
 }
 
 /* selected link */
 a:active {
-  color: dimgrey;
+  color: darkslateblue;
 }
 
 nav {
