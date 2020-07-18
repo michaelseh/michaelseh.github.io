@@ -1,10 +1,8 @@
 body {
   margin: auto;
-  /*padding: 20px;*/
   width: 90%;
   max-width: 960px;
-  /*background: mistyrose;*/
-  background: #B6D3E2;
+  background: white;
   font-family: 'Crimson Text', serif;
   font-size: 100%;
 }
@@ -47,12 +45,12 @@ h3 {
 
 /* unvisited link */
 a:link {
-  color: #FFEBA2;
+  color: blue;
 }
 
 /* visited link */
 a:visited {
-  color: #FFEBA2;
+  color: blue;
 }
 
 /* mouse over link */
@@ -62,7 +60,7 @@ a:hover {
 
 /* selected link */
 a:active {
-  color: #FFEBA2;
+  color: blue;
 }
 
 nav {
