@@ -2,7 +2,7 @@ body {
   margin: auto;
   width: 90%;
   max-width: 960px;
-  background: white;
+  background: thistle;
   font-family: 'Crimson Text', serif;
   font-size: 100%;
 }
@@ -45,22 +45,22 @@ h3 {
 
 /* unvisited link */
 a:link {
-  color: blue;
+  color: darkslateblue;
 }
 
 /* visited link */
 a:visited {
-  color: blue;
+  color: darkslateblue;
 }
 
 /* mouse over link */
 a:hover {
-  color: blue;
+  color: darkslateblue;
 }
 
 /* selected link */
 a:active {
-  color: blue;
+  color: darkslateblue;
 }
 
 nav {
