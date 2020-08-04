@@ -2,9 +2,10 @@ body {
   margin: auto;
   width: 90%;
   max-width: 960px;
-  background: ghostwhite;
+  background: Snow;
   font-family: 'Crimson Text', serif;
   font-size: 100%;
+  color: grey;
 }
 
 .container {
