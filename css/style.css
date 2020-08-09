@@ -1,11 +1,17 @@
+/*
+ * Want to change this website's styes? Learn more about CSS:
+ * https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS
+ */
+
 body {
   margin: auto;
+  /*padding: 20px;*/
   width: 90%;
   max-width: 960px;
-  background: blue;
+  /*background: mistyrose;*/
+  background: thistle;
   font-family: 'Crimson Text', serif;
   font-size: 100%;
-  color: white;
 }
 
 .container {
@@ -46,22 +52,22 @@ h3 {
 
 /* unvisited link */
 a:link {
-  color: white;
+  color: darkslateblue;
 }
 
 /* visited link */
 a:visited {
-  color: white;
+  color: darkslateblue;
 }
 
 /* mouse over link */
 a:hover {
-  color: grey;
+  color: darkslateblue;
 }
 
 /* selected link */
 a:active {
-  color: grey;
+  color: darkslateblue;
 }
 
 nav {
@@ -97,7 +103,7 @@ li {
   padding: 0;
   margin: 0; 
 }
-
+  
 .week {
   display: grid;
   grid-template-columns: 1fr 1fr 3fr;
