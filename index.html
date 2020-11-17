@@ -1,349 +1,321 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/dreampulse/computer-modern-web-font/master/fonts.css">
+		<link rel="shortcut icon" href="tab.png"/><title>Michael Seh</title>	
+		<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+		<title>michaelseh.xyz</title>
+		<link href="favicon.ico" rel="shortcut icon">
+		<meta content="lQSHebYmnNPc4so9n08Wf4poxAC7iwNC59Vi-pCPeJo" name="google-site-verification">
+		<meta name="Author" content="Michael Seh">
+		<meta name="Description" content="Michael Seh, artist, videos, news, selected artworks ">
+		<style type="text/css"/>
+	
+		html {
+    		-webkit-text-size-adjust: none; /* Prevent font scaling in landscape */
+		}
 
-<head>
-	<title>michaelseh.xyz</title>
-	<link href="favicon.ico" rel="shortcut icon">
-	<meta charset="utf-8">
-	<meta content="lQSHebYmnNPc4so9n08Wf4poxAC7iwNC59Vi-pCPeJo" name="google-site-verification">
-	<meta name="Author" content="Michael Seh">
-	<meta name="Description" content="Michael Seh, artist, videos, news, selected artworks ">
-	<meta content="width=device-width, initial-scale=.3" name="viewport">
-	<style>
-	       body {color: rgb(0, 0, 153); background-color: #E2E2E2}
-	       h1,h2,h3 {color: black}
-	       p {font-size: 150%}
-	       a {font-size: 150%}
-	       a.normal {font-size: 100%}
-	       a.title {color: rgb(0, 102, 0); font-weight: bold}
-	       a.green {color: rgb(0, 102, 0)}
-	       a.author {color: black}
-	       a.heading {color: black; font-weight: bold}
-	       a.disclaimer {font-size: 12pt; color: rgb(0, 102, 0)}
-	       a.datclaimer {font-size: 12pt; color: black}
-	       body {
-	       margin-top:0 !important;
-	       padding-top:0 !important;
-	     }
-	  table, th, td {
-	  border: 1px solid black;
-	 }
+		
+		body{
+			font-family: "Computer Modern Serif", sans-serif;
+			background-color:grey;
+			margin: 0;
+			padding-top:10px;
+			padding-bottom:10px;
+			padding-left:10px;
+			padding-right:10px;
+		}
+		
+		img{
+		border-top:1px solid black;
+		}
+		
+		h1 {
+            display:none;
+			font-weight:200;
+			position:absolute;
+			margin-left:10px;
+			font-family:arial;
+			font-size:14px;
+			color:black;
+		}
+		
+		#title{
+			text-align:center;
+			border-bottom:1px solid black;
+			padding-bottom: 10px;
+		}
+		
+		.title{
+			font-family: arial;
+			font-size:40px;
+		}
+		
+
+		
+		#content{
+			margin-top:50px;
+			text-align:left;
+		}
+		
+		
+		.work{
+			width:550px;
+			margin-left:auto;
+			margin-right:auto;
+			margin-bottom:50px;
+			text-align:left;
+			font-size:13px;
+			border:solid grey 1px;
+			background-color:white;
+		}
+		
+		.work2{
+			width:550px;
+			margin-left:auto;
+			margin-right:auto;
+			margin-bottom:50px;
+			text-align:left;
+			font-size:14px;
+			border:solid black 1px;
+            color:white;
+		}
+		
+		.titles{
+			margin-left:2px;
+			font-size:14px;
+		}
+		
+		.titles2{
+			margin-left:2px;
+			font-size:14px;
+			margin-bottom:0px;
+			margin-top:0px;
+		}
+		
+		.titles3{
+			margin-left:2px;
+			font-size:14px;
+		}
+		
+		.location{
+			font-size:13px;
+			margin-left:2px;
+		}
+		
+		.location2{
+			font-size:13px;
+			margin-left:2px;
+			margin-top:1px;
+			margin-bottom:1px;
+		}
+		
+		.bottom{
+		font-size:13px;
+		margin-left:2px;
+		margin-top:0px;
+		margin-bottom:1px;
+		}
+		
+		@-moz-document url-prefix() {
+		
+		.titles3{
+			margin-left:2px;
+			font-size:14px;
+			margin-top:0px;
+		}
+		
+		.titles2{
+			margin-left:2px;
+			font-size:14px;
+			margin-top:3px;
+			margin-bottom:0px;
+		}
+		
+		.location2{
+			font-size:13px;
+			margin-left:2px;
+			margin-top:2px;
+			margin-bottom:0px;
+		}
+		.work2{
+			width:550px;
+			margin-left:auto;
+			margin-right:auto;
+			margin-bottom:50px;
+			padding-top:0px;
+			text-align:left;
+			font-size:13px;
+			border:solid black 1px;
+			background-color:black;
+            color:black;
+		}
+		.work{
+			width:550px;
+			margin-left:auto;
+			margin-right:auto;
+			margin-bottom:50px;
+			padding-top:2px;
+			text-align:left;
+			font-size:13px;
+			border:solid black 2px;
+			background-color:white;
+		}
+		}
+		
+		#footer{
+			text-align:center;
+			font-family: "Computer Modern Serif", sans-serif;
+			font-size:14px;
+			border-top:0px solid white;
+			padding-top:5px;
+		}
+		
+
+		
 	</style>
+		
 </head>
-<body>
-	<h1>Michael Seh</h1><a>Here you can find the work of <b>Michael James Seh</b> (b.2000). The relevant work consists of the links below.<br>
-	<br></a> <a>The format of each entry is as follows.</a><br>
-	<a>(Work, Date, Description)</a><br>
-	<br>
-	<br>
-	<table>
-		<tr>
-			<td>
-				<a class="heading">Work</a>
-			</td>
-			<td>
-				<a class="heading">Date</a>
-			</td>
-			<td>
-				<a class="heading">Description</a>
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<a href="Behavior-Management.html">Behavior Management</a>
-			</td>
-			<td>
-				<a>Upcoming</a>
-			</td>
-			<td>
-				<a>Red Card, Yellow Card, Green Card</a>
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<a href="Flower-Mill.html">Flower Mill</a>
-			</td>
-			<td>
-				<a>2020</a>
-			</td>
-			<td>
-				<a>Run-of-the-mill</a>
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<a href="Checked-Luggage.html">Checked Luggage</a>
-			</td>
-			<td>
-				<a>2020</a>
-			</td>
-			<td>
-				<a>At the airport</a>
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<a href="our-teeth.html">our teeth</a>
-			</td>
-			<td>
-				<a>2020</a>
-			</td>
-			<td>
-				<a>My teeth and a piano's teeth</a>
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<a href="Guillotine.html">Guillotine</a>
-			</td>
-			<td>
-				<a>2020</a>
-			</td>
-			<td>
-				<a>A picture frame but the glass is the blade</a>
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<a href="Mercedes.html">Mercedes</a>
-			</td>
-			<td>
-				<a>2020</a>
-			</td>
-			<td>
-				<a>A piece of cardboard that sat in the middle of the garage floor to catch the leaks from my mom’s old Mercedes</a>
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<a href="Black-Ops-II.html">Black Ops II</a>
-			</td>
-			<td>
-				<a>2020</a>
-			</td>
-			<td>
-				<a>A series of face prints from the video game Call of Duty: Black Ops II</a>
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<a href="Hero.html">Hero</a>
-			</td>
-			<td>
-				<a>2020</a>
-			</td>
-			<td>
-				<a>Free Wi-Fi Zone</a>
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<a href="Bandz-a-Make-Her-Dance.html">Bandz a Make Her Dance</a>
-			</td>
-			<td>
-				<a>2020</a>
-			</td>
-			<td>
-				<a>Silly Bandz on canvases</a>
-			</td>
-		</tr>
-			<tr>
-			<td>
-				<a href="https://www.youtube.com/channel/UCProRXaHaf2jfQsPlLpMI1w/" target="_blank">casualstaring</a>
-			</td>
-			<td>
-				<a>2020–Present</a>
-			</td>
-			<td>
-				<a>An Intimate Collection of Casual AV Pairings</a>
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<a href="Mariah.html">Mariah</a>
-			</td>
-			<td>
-				<a>2020</a>
-			</td>
-			<td>
-				<a>Touch My Body</a>
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<a href="Killcam.html">Killcam</a>
-			</td>
-			<td>
-				<a>2020</a>
-			</td>
-			<td>
-				<a>Killcam overlaying a horse on dibond</a>
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<a href="Mom.html">Mom</a>
-			</td>
-			<td>
-				<a>2020</a>
-			</td>
-			<td>
-				<a>A tree marking dedicated to my mom</a>
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<a href="Sore-Loser.html">Sore Loser</a>
-			</td>
-			<td>
-				<a>2020</a>
-			</td>
-			<td>
-				<a>Post-game show</a>
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<a href="Kart.html">Kart</a>
-			</td>
-			<td>
-				<a>2020</a>
-			</td>
-			<td>
-				<a>Kart (can) carry a load of items</a>
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<a href="Sewer-Lamp.html">Sewer Lamp</a>
-			</td>
-			<td>
-				<a>2020</a>
-			</td>
-			<td>
-				<a>Pipe</a>
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<a href="https://minigun.live/" target="_blank">minigun.live</a>
-			</td>
-			<td>
-				<a>2020</a>
-			</td>
-			<td>
-				<a>A website that shoots a minigun</a>
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<a href="https://sock.chat/" target="_blank">sock.chat</a>
-			</td>
-			<td>
-				<a>2020–Present</a>
-			</td>
-			<td>
-				<a>I am a contributor to Sock Chat: a real-time imageboard and surf club</a>
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<a href="https://www.youtube.com/watch?v=isVohSSQxZI" target="_blank">streets</a>
-			</td>
-			<td>
-				<a>2020</a>
-			</td>
-			<td>
-				<a>benckx</a>
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<a href="https://conditional.arts.ucla.edu/exhibition/michael-seh" target="_blank">Watch a sunset at least once a day</a>
-			</td>
-			<td>
-				<a>2019</a>
-			</td>
-			<td>
-				<a>Golden Hour</a>
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<a href="https://www.youtube.com/watch?v=E8oHfnpguhA" target="_blank">Clickies</a>
-			</td>
-			<td>
-				<a>2019</a>
-			</td>
-			<td>
-				<a>Video Walkthrough</a>
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<a href="https://open.spotify.com/playlist/5X50GRccwpc0liKLYbocP2?si=ONpr33TnT0mJ2DYvHMDSxg" target="_blank">Mistletoe</a>
-			</td>
-			<td>
-				<a>2019</a>
-			</td>
-			<td>
-				<a>Chill Vibes</a>
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<a href="https://unsplash.com/photos/S66mTqg0nM8/info" target="_blank">Getty</a>
-			</td>
-			<td>
-				<a>2016</a>
-			</td>
-			<td>
-				<a>Free Stock Photo</a>
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<a href="https://www.youtube.com/playlist?list=PLzTRuEbPapvySWVwN_7jX83YhkOYTB5xL" target="_blank">Tech YouTuber</a>
-			</td>
-			<td>
-				<a>2015–2016</a>
-			</td>
-			<td>
-				<a>Credited as playing a role in the community of tech reviewers on YouTube. The following playlist contains tech videos I was featured in. The tech videos I made for my YouTube channel are long gone now.</a>
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<a href="Vault-0216.html">Vault #0216</a>
-			</td>
-			<td>
-				<a>2005–Present</a>
-			</td>
-			<td>
-				<a>Safe Deposit Box</a>
-			</td>
-			
-		</tr>
-	</table><br>
-	<br>
-	<h2>More Links</h2>
-	<a href="Photo-Album.html">Photo Album</a><br>	
-	<a href="Curriculum_Vitae_Seh_Michael.pdf" target="_blank">Curriculum Vitae</a><br>	
-	<a href="https://michaelseh.com/" target="_blank">My Splash Page</a><br>
-	<a href="https://github.com/michaelseh" target="_blank">GitHub</a><br>
-	<a href="https://www.youtube.com/michaelseh/" target="_blank">YouTube</a><br>
-	<a href="Peers.html">Peers</a><br>
-	<br>
-	<h2>Currently</h2>
-	<a>Studio Assistant to </a><a href="https://oliviaerlanger.com/" target="_blank">Olivia Erlanger</a><br>
-	<a>Gallery/Equipment Consultant at </a><a href="http://www.eda.ucla.edu/" target="_blank">Experimental Digital Arts</a><br>
-	<br>
-	<h2>Email</h2>
-	<a href="mailto:studio@michaelseh.xyz">studio AT michaelseh DOT xyz</a><br>
-	<br>
-	<h2>Thanks</h2><a>The design of this website is in homage to my time in Dr. Neato's</a> <a href="http://drneato.com/School/CompProg/CompProg.html" target="_blank">Buffet Programming Class</a><a>.</a><br>
-	<a>Thank you for visiting!</a><br><br>
-	<img src="https://michaelseh.xyz//images-src/meditatekid.png" alt="meditatekid" width="125" height="171"><br>
-	<a><i>Last updated November 12, 2020</i></a>
+	
+<body id="drag" >	
+	</div>
+	<div id="footer"><a style="font-size:12px;font-weight:bold;color:black;margin-left:-10px;" href="https://michaelseh.xyz/Curriculum_Vitae_Seh_Michael.pdf">CURRICULUM VITAE</a></div>
+	<div id="footer"><a style="font-size:12px;font-weight:bold;color:black;margin-left:-10px;" href="https://michaelseh.xyz/Photo-Album.html">PHOTO ALBUM</a></div>
+	<div id="content">
+        
+        <h1>x.<span class="star"></span></h1>
+		<div style="background-color:#A9A9A9;" class="work2">
+			<p class="titles2"><b>Behavior Management</b> <i style="font-size:12px;">2020</i></p>
+			<span class="location">The UC Berkeley Chapter of Phi Kappa Tau, Berkeley CA </span>
+			<a target="_blank" href="https://michaelseh.xyz/Behavior-Management.html" class="transition">
+			<img width="550px;" style="margin-top:2px;" src="https://michaelseh.xyz//images-compressed/Behavior-Management/How-am-I-doing-today.png"/></a></span>
+		</div>
+	
+		<h1>0.<span class="star"></span></h1>
+		<div style="background-color:#A9A9A9;" class="work2">
+			<p class="titles2"><b>Flower Mill</b> <i style="font-size:12px;">2020</i></p>
+			<span class="location">1908 Montecito Drive, Glendale CA</span>
+			<img width="550px;" style="margin-top:2px;" src="https://michaelseh.xyz/images-compressed/Flower-Mill/Flower-Mill.jpg"/></a></span>
+		</div>
+		</div>
+	
+		<h1>1.<span class="star"></span></h1>
+		<div style="background-color:#A9A9A9;" class="work2">
+			<p class="titles2"><b>Checked Luggage</b> <i style="font-size:12px;">2020</i></p>
+			<span class="location">Airport Baggage Claim </span>
+			<img width="550px;" style="border-top:1px solid black;border-bottom:1px solid black;margin-top:2px;" src="https://michaelseh.xyz//images-compressed/Checked-Luggage/Checked-Luggage.jpg"/></a></span>
+		</div>
+		
+		<h1>2.<span class="star2"></span></h1>
+		<div style="background-color:#A9A9A9;" class="work2">
+			<p class="titles2"><b>Mercedes</b> <i style="font-size:12px;">2020</i></p>
+			<span class="location">Garage Floor</span>
+			<img width="550px;" style="border-top:1px solid grey;border-bottom:1px solid black;margin-top:2px;" src="https://michaelseh.xyz//images-compressed/Mercedes/Mercedes.jpg"/></a></span>
+		</div>
+	
+        <h1>3.</h1>				
+		<div style="background-color:#A9A9A9;" class="work2">
+            <p class="titles2"><b>our teeth</b> <i style="font-size:12px;">2020</i></p>
+			<span class="location">My teeth and a piano's teeth</span>
+			<img width="550px;" style="margin-top:2px;" src="https://michaelseh.xyz//images-compressed/our-teeth/our-teeth.jpg"/></a></span>
+        </div>
+
+        <h1>4.<span class="star"></span></h1>				
+		<div style="background-color:#A9A9A9;" class="work2">
+        <p class="titles2"><b>Sore Loser</b> <i style="font-size:12px;">2020</i></p>
+			<span class="location">Post-game show</span>
+			<img width="550px;" style="margin-top:2px;" src="https://michaelseh.xyz//images-compressed/Sore-Loser/Sore-Loser.jpg"/></a></span>
+        </div>
+            
+        <h1>5.<span class="star"></span></h1>				
+		<div style="background-color:#A9A9A9;" class="work2">
+            <p class="titles2"><b>Hero</b> <i style="font-size:12px;">2020</i></p>
+			<span class="location">Free Wi-Fi Zone</span>
+			<img width="550px;" style="margin-top:2px;" src="https://michaelseh.xyz//images-compressed/Hero/Hero.jpg"/></a></span>
+        </div>
+
+        <h1>5.<span class="star"></span></h1>				
+		<div style="background-color:#A9A9A9;" class="work2">
+            <p class="titles2"><b>Mariah</b> <i style="font-size:12px;">2020</i></p>
+			<span class="location">Touch My Body</span>
+			<a target="_blank" href="https://vimeo.com/464858694" class="transition"><img width="550px;" style="margin-top:2px;" src="https://michaelseh.xyz//images-compressed/Mariah/Mariah.jpg"/></a></span>
+        </div>
+
+		<h1>6.<span class="star"></span></h1>				
+		<div style="background-color:#A9A9A9;" class="work2">
+			<p class="titles2"><b>Bandz a Make Her Dance</b> <i style="font-size:12px;">2020</i></p>
+			<span class="location">9150 Wilshire Blvd, Unit 210, Beverly Hills CA</span>
+			<img width="550px;" style="margin-top:1px;margin-bottom:0px;" src="https://michaelseh.xyz///images-compressed/Bandz-a-Make-Her-Dance/Bandz-a-Make-Her-Dance(1).jpg"/></a></span>
+		</div>
+
+		<h1>7.<span class="star"></span></h1>
+        <div style="background-color:#A9A9A9;" class="work2">
+        <p class="titles2"><b>Killcam</b> <i style="font-size:12px;">2020</i></p>
+			<span class="location">Turbine, Multiplayer Map</span>
+			<img style="border-top:1px solid black; margin-top:2px;" width="550px;" style="margin-top:2px;" src="https://michaelseh.xyz//images-compressed/Killcam/Killcam-1.jpg"/></a></span>
+			<br/>
+        </div>
+
+
+    <h1>111.</h1>
+		<div style="background-color:#A9A9A9;" class="work2">
+			<p class="titles2"><b>minigun.live</b> <i style="font-size:12px;">2020</i></p>
+			<span class="location">Website</span>
+			<a target="_blank" href="https://minigun.live/" class="transition"><img width="550px;" style="margin-top:1px;" src="https://michaelseh.xyz/1images-compressed/minigun-live/minigun-live.jpg"/></a></span>
+		</div>
+
+        <h1>8.</h1>
+		<div style="background-color:#A9A9A9;" class="work2">
+			<p class="titles2"><b>Black Ops II</b> <i style="font-size:12px;">2020</i></p>
+			<span class="location">Face Prints, Call of Duty: Black Ops II</span>
+			<img width="550px;" style="margin-top:1px;" src="https://michaelseh.xyz//images-compressed/Black-Ops-II/c_usa_hudson_afghanistan_head_c.jpg"/></a></span>
+		</div>
+
+	
+		<h1>5.<span class="star"></span></h1>				
+		<div style="background-color:#A9A9A9;" class="work2">
+            <p class="titles2"><b>casualstaring</b> <i style="font-size:12px;">2020–Present</i></p>
+			<span class="location">An Intimate Collection of Casual AV Pairings</span>
+			<a target="_blank" href="https://www.youtube.com/channel/UCProRXaHaf2jfQsPlLpMI1w" class="transition"><img width="550px;" style="margin-top:2px;" src="https://michaelseh.xyz//images-compressed/casual-staring/casual-staring.jpg"/></a></span>
+        </div>
+		
+   <h1>9.</h1>
+		<div style="background-color:#A9A9A9;" class="work2">
+			<p class="titles2"><b>Mom</b> <i style="font-size:12px;">2020</i></p>
+			<span class="location">For Cathy</span>
+			<img width="550px;" style="margin-top:1px;" src="https://michaelseh.xyz///images-compressed/Mom/Mom.jpg"/></a></span>
+		</div>
+		
+		<div style="display:;border-top:0px solid black;" id="footer"></div>
+
+<h1>8.</h1>
+		<div style="background-color:#A9A9A9;" class="work2">
+			<p class="titles2"><b>Watch a sunset at least once a day</b> <i style="font-size:12px;">2020</i></p>
+			<span class="location">Landscape</span>
+			<a target="_blank" href="https://www.youtube.com/watch?v=-qJhB3r2sno&list=PLzTRuEbPapvz_USblZHIs9ertmMTOeUxp&index=1" class="transition"><img width="550px;" style="margin-top:1px;" src="https://michaelseh.xyz//images-compressed/watch-a-sunset-at-least-once-a-day/watch-a-sunset-at-least-once-a-day.jpg"/></a></span>
+		</div>
+
+
+
+
+
+		 <h1>8.</h1>
+		<div style="background-color:#A9A9A9;" class="work2">
+			<p class="titles2"><b>Clickies</b> <i style="font-size:12px;">2019</i></p>
+			<span class="location">Walking with Jack Kilgore</span>
+			<a target="_blank" href="https://www.youtube.com/watch?v=E8oHfnpguhA" class="transition"><img width="550px;" style="margin-top:1px;" src="https://michaelseh.xyz//images-compressed/Clickies/Clickies.jpg"/></a></span>
+		</div>
+
+
+		 <h1>10.</h1>
+		<div style="background-color:#A9A9A9;" class="work2">
+			<p class="titles2"><b>Vault 0216</b> <i style="font-size:12px;">2005–Present</i></p>
+			<span class="location">Safe Deposit Box</span>
+			<img width="550px;" style="margin-top:1px;" src="https://michaelseh.xyz//images-compressed/Vault-0216/Vault-0216.jpg"/></a></span>
+		</div>
+	
+	
 </body>
+</div>
 </html>
