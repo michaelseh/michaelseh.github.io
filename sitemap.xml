@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://michaelseh.xyz/</loc>
+  <lastmod>2020-11-17T01:55:01+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://michaelseh.xyz/Curriculum_Vitae_Seh_Michael.pdf</loc>
+  <lastmod>2020-11-17T01:54:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://michaelseh.xyz/Behavior-Management.html</loc>
+  <lastmod>2020-11-17T01:54:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://michaelseh.xyz/Black-Ops-II.html</loc>
+  <lastmod>2020-11-17T01:54:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://michaelseh.xyz/index.html</loc>
+  <lastmod>2020-11-17T01:55:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
